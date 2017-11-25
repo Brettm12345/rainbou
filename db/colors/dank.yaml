@@ -1,0 +1,31 @@
+metadata:
+  name: dank
+  author: brett
+colors:
+  bg: "0f0f0f"
+  fg: "ebebeb"
+  cr: "ebebeb"
+
+  00: "101010"
+  08: "686868"
+
+  01: "bf535f"
+  09: "cc6971"
+
+  02: "4fa7a1"
+  10: "6fd0cb"
+
+  03: "cdb481"
+  11: "e8d1a0"
+
+  04: "5c8cbc"
+  12: "76aade"
+
+  05: "8c6d94"
+  13: "b498c6"
+
+  06: "387591"
+  14: "57a3c6"
+
+  07: "ababab"
+  15: "d2d2d2"
