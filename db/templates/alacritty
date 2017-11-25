@@ -1,0 +1,26 @@
+# Colors ({{.Metadata.Name}} by {{.Metadata.Author}})
+colors:
+  primary:
+    background: '0x{{index .ColorMap "bg" "hex"}}'
+    foreground: '0x{{index .ColorMap "fg" "hex"}}'
+  cursor:
+    text: '0x{{index .ColorMap "fg" "hex"}}'
+    cursor: '0x{{index .ColorMap "cr" "hex"}}'
+  normal:
+    black:   '0x{{index .ColorMap "00" "hex"}}'
+    red:     '0x{{index .ColorMap "01" "hex"}}'
+    green:   '0x{{index .ColorMap "02" "hex"}}'
+    yellow:  '0x{{index .ColorMap "03" "hex"}}'
+    blue:    '0x{{index .ColorMap "04" "hex"}}'
+    magenta: '0x{{index .ColorMap "05" "hex"}}'
+    cyan:    '0x{{index .ColorMap "06" "hex"}}'
+    white:   '0x{{index .ColorMap "07" "hex"}}'
+  bright:
+    black:   '0x{{index .ColorMap "08" "hex"}}'
+    red:     '0x{{index .ColorMap "09" "hex"}}'
+    green:   '0x{{index .ColorMap "10" "hex"}}'
+    yellow:  '0x{{index .ColorMap "11" "hex"}}'
+    blue:    '0x{{index .ColorMap "12" "hex"}}'
+    magenta: '0x{{index .ColorMap "13" "hex"}}'
+    cyan:    '0x{{index .ColorMap "14" "hex"}}'
+    white:   '0x{{index .ColorMap "15" "hex"}}'
