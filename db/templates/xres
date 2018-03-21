@@ -36,14 +36,3 @@
 ! white
 *.color7:       #{{index .ColorMap "07" "hex"}}
 *.color15:      #{{index .ColorMap "15" "hex"}}
-
-!
-! Rofi
-!                                   fg                    bgSelect fgSelect
-rofi.color-normal: argb:00000000, #{{index .ColorMap "fg" "hex"}}, argb:00000000, #{{index .ColorMap "05" "hex"}}, #{{index .ColorMap "bg" "hex"}}
-rofi.color-urgent: argb:00000000, #{{index .ColorMap "bg" "hex"}}, argb:00000000, #{{index .ColorMap "00" "hex"}},#{{index .ColorMap "01" "hex"}}
-rofi.color-active: argb:00000000, #{{index .ColorMap "05" "hex"}}, argb:00000000, #{{index .ColorMap "00" "hex"}} ,#{{index .ColorMap "06" "hex"}}
-!                          bg      border
-rofi.color-window: argb:ff{{index .ColorMap "00" "hex"}}, #{{index .ColorMap "bg" "hex"}}, #{{index .ColorMap "fg" "hex"}}
-
-! vim: set ft=xdefaults :
