@@ -1,32 +1,31 @@
-
 metadata:
   name: "One Dark"
   author: Brett
 colors:
   bg: "282C34"
   fg: "ABB2BF"
-  cr: "5c6370"
+  cr: "6494ED"
 
   00: "3A3F4B"
-  08: "5B6268"
+  08: "4B5263"
 
   01: "E06C75"
-  09: "E05252"
+  09: "E5848C"
 
-  02: "98BE65"
-  10: "A5C875"
+  02: "98C379"
+  10: "B0D199"
 
-  03: "D19A66"
-  11: "e5c07b"
+  03: "E5C08B"
+  11: "F7D79B"
 
-  04: "6494ed"
-  12: "51AFEF"
+  04: "61AFEF"
+  12: "7DBFF6"
 
   05: "C678DD"
-  13: "D894EC"
+  13: "D28DE6"
 
   06: "56B6C2"
-  14: "80CAD4"
+  14: "77CED9"
 
-  07: "BBC2CF"
-  15: "DFDFDF"
+  07: "DCDFE4"
+  15: "EFF2F6"
