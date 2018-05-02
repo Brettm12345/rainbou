@@ -18,7 +18,7 @@ func main() {
 	}
 
 	// Scheme and template files are relative to the db directory
-	dir, err := filepath.Abs(os.Getenv("GOPATH") + "/src/github.com/tudurom/rainbou")
+	dir, err := filepath.Abs(os.Getenv("GOPATH") + "/src/github.com/brettm12345/rainbou")
 	if err != nil {
 		panic(err)
 	}
